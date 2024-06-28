@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+body {
+    background-color: #DFDCBB;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(#2C9B54, #1D7E3E, #156E35, #06481A);
+    padding-top: 30px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.596);
+}
+
+header > h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0px 1px 2px black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+header > p {
+    color: white;
+    text-shadow: 0px 1px 2px black;
+    text-align: center;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+nav > a {
+    color: #6CAE89;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: #2d995fee;
+    color: black;
+    text-decoration: underline;
+}
+
+nav > a:active {
+    color: white;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1.destaque {
+    color: #22533f;
+    font-family: idroid;
+}
+
+span.destaque {
+    color: #22533f;
+    font-weight: bold;
+}
+
+p { 
+    text-indent: 20px;
+}
+
+h2.importante {
+    background-color: #A5E6C2;
+    font-family: idroid;
+    color: #22533f;
+}
+
+a.importante {
+    background-color: #A5E6C2;
+    font-weight: bold;
+    text-decoration: none;
+    color: #22533f;
+}
+
+a.importante::after {
+    content: ' 🔗';
+}
+
+a.importante:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.imagemcentro {
+    text-align: center;
+}
+
+article#video {
+    background-color: #06481A;
+    width: 820px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+article.adicional {
+    background-color: #80E1AA;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    border-radius: 10px;
+}
+
+h4.iniciotabela {
+    background-color: #175C34;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+article.adicional > p {
+    padding-left: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1A5C38;
+    color: white;
+    padding: 5px;
+}
+
+footer > p {
+    margin: 0px;
+}
